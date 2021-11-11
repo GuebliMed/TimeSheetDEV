@@ -1,6 +1,6 @@
 pipeline {
   environment{
-	registry = '24339824/devopsimage'
+	registry = "24339824/devopsimage"
 	registryCredential= 'dockerHub'
 	dockerImage = ''
  
@@ -11,7 +11,7 @@ pipeline {
     steps{
       echo 'Pulling...';
       git branch: 'NaderBranch',
-      url : 'https://github.com/GuebliMed/TimeSheetDEV';
+      url : 'https://github.com/GuebliMed/TimeSheetDEV.git';
     }
   }
          
