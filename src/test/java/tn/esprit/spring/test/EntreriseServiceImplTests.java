@@ -68,10 +68,10 @@ package tn.esprit.spring.test;
 //		}
 		
 		// test du suppression de l'entreprise
-		@Test(timeout = 5000)
-		public void testDeleteEmploye() {
-		es.deleteEntrepriseById(2);
-		l.info("deleted successfuly" );
-		}
+//		@Test(timeout = 5000)
+//		public void testDeleteEmploye() {
+//		es.deleteEntrepriseById(2);
+//		l.info("deleted successfuly" );
+//		}
 
 	}
