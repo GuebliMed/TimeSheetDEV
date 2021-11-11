@@ -1,9 +1,9 @@
 pipeline{
-	/*environment{
-		registry = 'rachedchakchouk/timesheet_img'
+	environment{
+		registry = 'sondosgrira/devops'
 		registryCredential= 'dockerHub'
 		dockerImage = ''
-	}*/
+	}
 	agent any 
 	stages{
 		stage ('Checkout GIT'){
