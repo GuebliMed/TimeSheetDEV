@@ -1,0 +1,45 @@
+2021-10-24 13:09:16.130  INFO 20528 --- [main] SpringBootCoreDataJpaMvcRest1Application : Starting TimesheetSpringBootCoreDataJpaMvcRest1Application on LAPTOP-F4N0JCI6 with PID 20528 (C:\Users\21624\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\TimeSheetDEV-master\target\classes started by 21624 in C:\Users\21624\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\TimeSheetDEV-master)
+2021-10-24 13:09:16.135  INFO 20528 --- [main] SpringBootCoreDataJpaMvcRest1Application : No active profile set, falling back to default profiles: default
+2021-10-24 13:09:16.708  INFO 20528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-24 13:09:16.788  INFO 20528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73ms. Found 7 repository interfaces.
+2021-10-24 13:09:17.036  INFO 20528 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$722b557] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-24 13:09:17.297  INFO 20528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-10-24 13:09:17.317  INFO 20528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-24 13:09:17.317  INFO 20528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-10-24 13:09:17.429  INFO 20528 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-10-24 13:09:17.430  INFO 20528 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1228 ms
+2021-10-24 13:09:17.661  INFO 20528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-24 13:09:18.234  INFO 20528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-24 13:09:18.305  INFO 20528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-24 13:09:18.366  INFO 20528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-24 13:09:18.368  INFO 20528 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-24 13:09:18.492  INFO 20528 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-24 13:09:18.627  INFO 20528 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-24 13:09:31.443  INFO 20528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-24 13:09:32.961  INFO 20528 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-24 13:09:34.843  INFO 20528 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 13:09:34.980  WARN 20528 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-24 13:09:35.930  INFO 20528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/SpringMVC'
+2021-10-24 13:09:35.931  INFO 20528 --- [main] SpringBootCoreDataJpaMvcRest1Application : Started TimesheetSpringBootCoreDataJpaMvcRest1Application in 20.294 seconds (JVM running for 20.842)
+2021-10-24 13:10:39.181  INFO 20528 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-10-24 13:10:39.184  INFO 20528 --- [RMI TCP Connection(9)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 13:10:39.188  INFO 20528 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-24 13:10:39.190  INFO 20528 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-24 13:10:39.192  INFO 20528 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-24 13:10:51.614  INFO 36812 --- [main] SpringBootCoreDataJpaMvcRest1Application : Starting TimesheetSpringBootCoreDataJpaMvcRest1Application on LAPTOP-F4N0JCI6 with PID 36812 (C:\Users\21624\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\TimeSheetDEV-master\target\classes started by 21624 in C:\Users\21624\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\TimeSheetDEV-master)
+2021-10-24 13:10:51.618  INFO 36812 --- [main] SpringBootCoreDataJpaMvcRest1Application : No active profile set, falling back to default profiles: default
+2021-10-24 13:10:52.720  INFO 36812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-24 13:10:52.721  INFO 36812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-10-24 13:10:52.817  INFO 36812 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-10-24 13:10:53.157  INFO 36812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-24 13:10:53.212  INFO 36812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-24 13:10:53.213  INFO 36812 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-24 13:10:53.337  INFO 36812 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-24 13:10:53.474  INFO 36812 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-24 13:10:55.509  INFO 36812 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-24 13:10:55.956  WARN 36812 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-24 13:10:56.282  INFO 36812 --- [main] SpringBootCoreDataJpaMvcRest1Application : Started TimesheetSpringBootCoreDataJpaMvcRest1Application in 4.95 seconds (JVM running for 5.484)

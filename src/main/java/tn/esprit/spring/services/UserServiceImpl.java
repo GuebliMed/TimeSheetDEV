@@ -24,12 +24,12 @@ public class UserServiceImpl implements IUserService {
 
 		
 	
-	// TODO Logger à ajouter  
+	 
 	
 	@Override
 	public List<User> retrieveAllUsers() { 
 		List<User> users = null; 
-		//try {
+		
 	
 			logger.info("In Method retrieveAllUsers"); 
 			users = (List<User>) userRepository.findAll();
@@ -39,9 +39,7 @@ public class UserServiceImpl implements IUserService {
 				logger.debug("user :" + user.getLastName());   
 			} 
 			logger.debug("Out of Method retrieveAllUsers with Success");
-		/*}catch (Exception e) {
-			// TODO Log à ajouter pour gérer les erreurs 
-		}*/
+		
 
 		return users;
 	}
@@ -73,7 +71,6 @@ public class UserServiceImpl implements IUserService {
 	@Override
 	public User retrieveUser(String id) {
 		logger.info("In Method retrieveUser :"); 
-		//User u =  userRepository.findById(Long.parseLong(id)).orElse(null);
 		User u =  userRepository.findById(Long.parseLong(id)).get(); 
 		logger.info("Out Method retrieveUser :"); 
 		return u; 
