@@ -375,3 +375,281 @@
 2020-03-04 19:05:25.123  INFO 8940 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-03-04 19:05:25.187  INFO 8940 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-03-04 19:05:25.225  INFO 8940 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-12 00:05:28.487  INFO 16348 --- [main] t.e.spring.test.EmployeServiceImplTest   : Starting EmployeServiceImplTest on GHOST with PID 16348 (started by msi in C:\Users\msi\Desktop\projet\TimeSheetDEV)
+2021-11-12 00:05:28.487  INFO 16348 --- [main] t.e.spring.test.EmployeServiceImplTest   : No active profile set, falling back to default profiles: default
+2021-11-12 00:05:29.214  INFO 16348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-12 00:05:29.307  INFO 16348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 6 repository interfaces.
+2021-11-12 00:05:29.667  INFO 16348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5dcf691e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-12 00:05:29.859  INFO 16348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-12 00:05:30.043  INFO 16348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-12 00:05:30.119  INFO 16348 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-12 00:05:30.191  INFO 16348 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-12 00:05:30.191  INFO 16348 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-12 00:05:30.313  INFO 16348 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-12 00:05:30.609  INFO 16348 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-12 00:05:31.456  INFO 16348 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:05:31.744  INFO 16348 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-12 00:05:32.699  INFO 16348 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:05:32.765  WARN 16348 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-12 00:05:33.317  INFO 16348 --- [main] t.e.spring.test.EmployeServiceImplTest   : Started EmployeServiceImplTest in 5.126 seconds (JVM running for 5.908)
+2021-11-12 00:05:33.573  INFO 16348 --- [Time-limited test] t.e.spring.test.EmployeServiceImplTest   : Test adding Employe done successfuly 
+2021-11-12 00:05:33.677  INFO 16348 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:05:33.677  INFO 16348 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:05:33.681  INFO 16348 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-12 00:05:33.683  INFO 16348 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-12 00:12:39.414  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Starting DepartementServiceImplTest on GHOST with PID 13188 (started by msi in C:\Users\msi\Desktop\projet\TimeSheetDEV)
+2021-11-12 00:12:39.414  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : No active profile set, falling back to default profiles: default
+2021-11-12 00:12:40.089  INFO 13188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-12 00:12:40.167  INFO 13188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 6 repository interfaces.
+2021-11-12 00:12:40.534  INFO 13188 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93531f6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-12 00:12:40.734  INFO 13188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-12 00:12:40.918  INFO 13188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-12 00:12:40.986  INFO 13188 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-12 00:12:41.058  INFO 13188 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-12 00:12:41.058  INFO 13188 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-12 00:12:41.194  INFO 13188 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-12 00:12:41.481  INFO 13188 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-12 00:12:42.491  INFO 13188 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:12:42.816  INFO 13188 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-12 00:12:43.792  INFO 13188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:12:44.024  WARN 13188 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-12 00:12:44.384  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Started DepartementServiceImplTest in 5.232 seconds (JVM running for 5.943)
+2021-11-12 00:12:44.454  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:12:44.456  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:12:44.547  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:12:44.547  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Id du departement que je viens d'ajouter: 4
+2021-11-12 00:12:44.547  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : je teste si l'id du departement est bien different de 0.
+2021-11-12 00:12:44.547  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : je supprime le departement.
+2021-11-12 00:12:44.595  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAjouterDepartement() sans erreurs.
+2021-11-12 00:12:44.601  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:12:44.601  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer une entreprise.
+2021-11-12 00:12:44.601  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:12:44.601  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter l'entreprise.
+2021-11-12 00:12:44.609  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter le departement.
+2021-11-12 00:12:44.612  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais affecter le departement a l'entreprise.
+2021-11-12 00:12:44.634  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais reprendre le departement depuis la base de donnée.
+2021-11-12 00:12:44.642  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais tester si l'entreprise_id du departement est égale a l'id de l'entreprise auquel je l'ai affecté.
+2021-11-12 00:12:44.642  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:12:44.647  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer l'entreprise.
+2021-11-12 00:12:44.655  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAffecterDepartement() sans erreurs.
+2021-11-12 00:12:44.659  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : In testSupprimerEntreprise():
+2021-11-12 00:12:44.659  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:12:44.659  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:12:44.663  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:12:44.665  INFO 13188 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais m'assurer que la methode findDepartementById() retourne null.
+2021-11-12 00:12:44.675  INFO 13188 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [tn.esprit.spring.test.EmployeServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-12 00:12:44.679  INFO 13188 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-11-12 00:12:44.679  INFO 13188 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@a44effb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ee258, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4f676900, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73a49597, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5eb2972f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@29699283, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5d32c1c7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a6dffdb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@40ac0a56, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@25b4754a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6ec3a4c2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@bb50de6]
+2021-11-12 00:12:44.711  INFO 13188 --- [main] t.e.spring.test.EmployeServiceImplTest   : Starting EmployeServiceImplTest on GHOST with PID 13188 (started by msi in C:\Users\msi\Desktop\projet\TimeSheetDEV)
+2021-11-12 00:12:44.711  INFO 13188 --- [main] t.e.spring.test.EmployeServiceImplTest   : No active profile set, falling back to default profiles: default
+2021-11-12 00:12:44.874  INFO 13188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-12 00:12:44.894  INFO 13188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 6 repository interfaces.
+2021-11-12 00:12:44.956  INFO 13188 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93531f6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-12 00:12:45.045  INFO 13188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-11-12 00:12:45.047  INFO 13188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-11-12 00:12:45.071  INFO 13188 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-12 00:12:45.079  INFO 13188 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-12 00:12:45.317  INFO 13188 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:12:45.377  INFO 13188 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-12 00:12:45.755  INFO 13188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:12:45.771  WARN 13188 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-12 00:12:46.041  INFO 13188 --- [main] t.e.spring.test.EmployeServiceImplTest   : Started EmployeServiceImplTest in 1.358 seconds (JVM running for 7.604)
+2021-11-12 00:12:46.154  INFO 13188 --- [Time-limited test] t.e.spring.test.EmployeServiceImplTest   : Test adding Employe done successfuly 
+2021-11-12 00:12:46.186  INFO 13188 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:12:46.186  INFO 13188 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:12:46.190  INFO 13188 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:12:46.190  INFO 13188 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:12:46.190  INFO 13188 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-12 00:12:46.190  INFO 13188 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-11-12 00:12:46.196  INFO 13188 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-12 00:12:46.196  INFO 13188 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-11-12 00:17:17.923  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Starting DepartementServiceImplTest on GHOST with PID 6168 (started by msi in C:\Users\msi\Desktop\projet\TimeSheetDEV)
+2021-11-12 00:17:17.927  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : No active profile set, falling back to default profiles: default
+2021-11-12 00:17:18.655  INFO 6168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-12 00:17:18.739  INFO 6168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73ms. Found 6 repository interfaces.
+2021-11-12 00:17:19.107  INFO 6168 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$25db2ad6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-12 00:17:19.315  INFO 6168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-12 00:17:19.503  INFO 6168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-12 00:17:19.579  INFO 6168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-12 00:17:19.651  INFO 6168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-12 00:17:19.651  INFO 6168 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-12 00:17:19.788  INFO 6168 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-12 00:17:20.073  INFO 6168 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-12 00:17:20.977  INFO 6168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:17:21.293  INFO 6168 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-12 00:17:22.260  INFO 6168 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:17:22.321  WARN 6168 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-12 00:17:22.859  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Started DepartementServiceImplTest in 5.199 seconds (JVM running for 5.971)
+2021-11-12 00:17:22.923  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:17:22.927  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:17:22.993  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:17:22.997  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Id du departement que je viens d'ajouter: 7
+2021-11-12 00:17:22.997  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : je teste si l'id du departement est bien different de 0.
+2021-11-12 00:17:22.997  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : je supprime le departement.
+2021-11-12 00:17:23.040  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAjouterDepartement() sans erreurs.
+2021-11-12 00:17:23.047  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:17:23.051  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer une entreprise.
+2021-11-12 00:17:23.051  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:17:23.051  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter l'entreprise.
+2021-11-12 00:17:23.057  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter le departement.
+2021-11-12 00:17:23.061  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais affecter le departement a l'entreprise.
+2021-11-12 00:17:23.085  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais reprendre le departement depuis la base de donnée.
+2021-11-12 00:17:23.093  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais tester si l'entreprise_id du departement est égale a l'id de l'entreprise auquel je l'ai affecté.
+2021-11-12 00:17:23.093  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:17:23.101  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer l'entreprise.
+2021-11-12 00:17:23.111  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAffecterDepartement() sans erreurs.
+2021-11-12 00:17:23.115  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : In testSupprimerEntreprise():
+2021-11-12 00:17:23.115  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:17:23.115  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:17:23.117  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:17:23.121  INFO 6168 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais m'assurer que la methode findDepartementById() retourne null.
+2021-11-12 00:17:23.159  INFO 6168 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:17:23.161  INFO 6168 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:17:23.165  INFO 6168 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-12 00:17:23.172  INFO 6168 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-12 00:19:00.193  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Starting DepartementServiceImplTest on GHOST with PID 11512 (started by msi in C:\Users\msi\Desktop\projet\TimeSheetDEV)
+2021-11-12 00:19:00.193  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : No active profile set, falling back to default profiles: default
+2021-11-12 00:19:00.867  INFO 11512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-12 00:19:00.961  INFO 11512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 6 repository interfaces.
+2021-11-12 00:19:01.370  INFO 11512 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2eba2c8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-12 00:19:01.620  INFO 11512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-12 00:19:01.826  INFO 11512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-12 00:19:01.890  INFO 11512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-12 00:19:01.946  INFO 11512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-12 00:19:01.950  INFO 11512 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-12 00:19:02.082  INFO 11512 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-12 00:19:02.371  INFO 11512 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-12 00:19:03.232  INFO 11512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:19:03.525  INFO 11512 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-12 00:19:04.473  INFO 11512 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:19:04.701  WARN 11512 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-12 00:19:05.050  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Started DepartementServiceImplTest in 5.145 seconds (JVM running for 5.956)
+2021-11-12 00:19:05.132  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:19:05.132  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:19:05.221  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:19:05.221  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Id du departement que je viens d'ajouter: 10
+2021-11-12 00:19:05.221  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : je teste si l'id du departement est bien different de 0.
+2021-11-12 00:19:05.221  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : je supprime le departement.
+2021-11-12 00:19:05.272  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAjouterDepartement() sans erreurs.
+2021-11-12 00:19:05.276  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:19:05.276  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer une entreprise.
+2021-11-12 00:19:05.276  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:19:05.276  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter l'entreprise.
+2021-11-12 00:19:05.283  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter le departement.
+2021-11-12 00:19:05.283  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais affecter le departement a l'entreprise.
+2021-11-12 00:19:05.307  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais reprendre le departement depuis la base de donnée.
+2021-11-12 00:19:05.317  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais tester si l'entreprise_id du departement est égale a l'id de l'entreprise auquel je l'ai affecté.
+2021-11-12 00:19:05.317  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:19:05.323  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer l'entreprise.
+2021-11-12 00:19:05.331  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAffecterDepartement() sans erreurs.
+2021-11-12 00:19:05.334  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : In testSupprimerEntreprise():
+2021-11-12 00:19:05.334  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:19:05.334  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:19:05.336  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:19:05.342  INFO 11512 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais m'assurer que la methode findDepartementById() retourne null.
+2021-11-12 00:19:05.503  INFO 11512 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:19:05.505  INFO 11512 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:19:05.505  INFO 11512 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-12 00:19:05.509  INFO 11512 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-12 00:24:18.099  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Starting DepartementServiceImplTest on GHOST with PID 21644 (started by msi in C:\Users\msi\Desktop\projet\TimeSheetDEV)
+2021-11-12 00:24:18.099  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : No active profile set, falling back to default profiles: default
+2021-11-12 00:24:18.784  INFO 21644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-12 00:24:18.871  INFO 21644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79ms. Found 6 repository interfaces.
+2021-11-12 00:24:19.321  INFO 21644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1ff86f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-12 00:24:19.537  INFO 21644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-12 00:24:19.747  INFO 21644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-12 00:24:19.811  INFO 21644 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-12 00:24:19.871  INFO 21644 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-12 00:24:19.871  INFO 21644 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-12 00:24:20.001  INFO 21644 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-12 00:24:20.297  INFO 21644 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-12 00:24:21.157  INFO 21644 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:24:21.457  INFO 21644 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-12 00:24:22.375  INFO 21644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:24:22.446  WARN 21644 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-12 00:24:22.971  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Started DepartementServiceImplTest in 5.156 seconds (JVM running for 6.005)
+2021-11-12 00:24:23.062  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:24:23.062  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:24:23.145  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:24:23.145  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Id du departement que je viens d'ajouter: 13
+2021-11-12 00:24:23.145  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : je teste si l'id du departement est bien different de 0.
+2021-11-12 00:24:23.145  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : je supprime le departement.
+2021-11-12 00:24:23.193  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAjouterDepartement() sans erreurs.
+2021-11-12 00:24:23.201  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:24:23.201  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer une entreprise.
+2021-11-12 00:24:23.201  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:24:23.201  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter l'entreprise.
+2021-11-12 00:24:23.205  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter le departement.
+2021-11-12 00:24:23.211  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais affecter le departement a l'entreprise.
+2021-11-12 00:24:23.231  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais reprendre le departement depuis la base de donnée.
+2021-11-12 00:24:23.239  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais tester si l'entreprise_id du departement est égale a l'id de l'entreprise auquel je l'ai affecté.
+2021-11-12 00:24:23.239  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:24:23.247  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer l'entreprise.
+2021-11-12 00:24:23.253  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAffecterDepartement() sans erreurs.
+2021-11-12 00:24:23.257  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : In testSupprimerEntreprise():
+2021-11-12 00:24:23.257  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:24:23.257  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:24:23.261  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:24:23.264  INFO 21644 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais m'assurer que la methode findDepartementById() retourne null.
+2021-11-12 00:24:23.437  INFO 21644 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:24:23.441  INFO 21644 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:24:23.445  INFO 21644 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-12 00:24:23.449  INFO 21644 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-12 00:25:21.821  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Starting DepartementServiceImplTest on GHOST with PID 19136 (started by msi in C:\Users\msi\Desktop\projet\TimeSheetDEV)
+2021-11-12 00:25:21.825  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : No active profile set, falling back to default profiles: default
+2021-11-12 00:25:22.517  INFO 19136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-12 00:25:22.606  INFO 19136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79ms. Found 6 repository interfaces.
+2021-11-12 00:25:23.024  INFO 19136 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1ff86f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-12 00:25:23.285  INFO 19136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-12 00:25:23.488  INFO 19136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-12 00:25:23.554  INFO 19136 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-12 00:25:23.616  INFO 19136 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-12 00:25:23.620  INFO 19136 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-12 00:25:23.742  INFO 19136 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-12 00:25:24.054  INFO 19136 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-12 00:25:24.923  INFO 19136 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:25:25.211  INFO 19136 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-12 00:25:26.118  INFO 19136 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:25:26.179  WARN 19136 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-12 00:25:26.722  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Started DepartementServiceImplTest in 5.171 seconds (JVM running for 5.997)
+2021-11-12 00:25:26.804  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:25:26.808  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:25:26.896  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:25:26.900  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Id du departement que je viens d'ajouter: 16
+2021-11-12 00:25:26.900  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : je teste si l'id du departement est bien different de 0.
+2021-11-12 00:25:26.900  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : je supprime le departement.
+2021-11-12 00:25:26.947  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAjouterDepartement() sans erreurs.
+2021-11-12 00:25:26.952  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : In testAjouterDepartement():
+2021-11-12 00:25:26.952  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer une entreprise.
+2021-11-12 00:25:26.952  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:25:26.952  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter l'entreprise.
+2021-11-12 00:25:26.957  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter le departement.
+2021-11-12 00:25:26.961  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais affecter le departement a l'entreprise.
+2021-11-12 00:25:26.984  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais reprendre le departement depuis la base de donnée.
+2021-11-12 00:25:26.988  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais tester si l'entreprise_id du departement est égale a l'id de l'entreprise auquel je l'ai affecté.
+2021-11-12 00:25:26.992  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:25:26.998  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer l'entreprise.
+2021-11-12 00:25:27.004  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Out testAffecterDepartement() sans erreurs.
+2021-11-12 00:25:27.004  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : In testSupprimerEntreprise():
+2021-11-12 00:25:27.004  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais creer un departement.
+2021-11-12 00:25:27.004  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais ajouter un departement.
+2021-11-12 00:25:27.008  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais supprimer le departement.
+2021-11-12 00:25:27.013  INFO 19136 --- [main] t.e.s.test.DepartementServiceImplTest    : Je vais m'assurer que la methode findDepartementById() retourne null.
+2021-11-12 00:25:27.201  INFO 19136 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-12 00:25:27.205  INFO 19136 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-12 00:25:27.207  INFO 19136 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-12 00:25:27.211  INFO 19136 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
